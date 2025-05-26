@@ -1,0 +1,50 @@
+
+# Ignorar os dados do PostgreSQL
+postgres-data/
+
+# Go build files
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace stuff
+vendor/
+Godeps/
+*.mod
+*.sum
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# PostgreSQL (dados locais, dumps, etc.)
+*.sql
+*.sql.gz
+*.dump
+pgdata/
+*.pgpass
+*.log
+*.bak
+
+# Arquivos de configuração sensíveis (exemplo: variáveis de ambiente)
+.env
+.env.*
+config.yaml
+config.json
+*.local.*
+*.secret.*
